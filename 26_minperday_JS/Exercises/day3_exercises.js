@@ -32,11 +32,76 @@ console.log(string10 == num10); //true equal in value
 
 // Question 3
 // Check if parseInt('9.8') is equal to 10
+let numNinePoint = parseInt('9.8');
+console.log(numNinePoint == 10) //false
+console.log(numNinePoint) //nine
 
+// Question 4
+/* Boolean value is either true or false.
 
+Write three JavaScript statement which provide truthy value.
+Write three JavaScript statement which provide falsy value.
+*/
 
+//Truthy statements
 
+let isSnowing = true;
+let isRaining = false;
+let ageDiff = 49 > 27; //true
+let isSun = 49 < 27; //false
 
+// Falsy Values
+
+let nothingToSee
+let nothingToHear = null;
+let nothingToRead = '',
+
+// Question 5
+/*
+Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+
+4 > 3
+4 >= 3
+4 < 3
+4 <= 3
+4 == 4
+4 === 4
+4 != 4
+4 !== 4
+4 != '4'
+4 == '4'
+4 === '4'
+Find the length of python and jargon and make a falsy comparison statement.
+*/
+
+let firstQ = 4 > 3; //true
+console.log(firstQ);
+let secondQ = 4 >= 3; //true
+console.log(secondQ);
+let thirdQ = 4 < 3; //false
+console.log(thirdQ);
+let fourthQ = 4 <= 3; //false
+console.log(fourthQ);
+let fifthQ = 4 == 4; //true
+console.log(fifthQ);
+let sixthQ = 4 === 4; //true
+console.log(sixthQ);
+let seventhQ = 4 != 4; //false
+console.log(seventhQ);
+let eightQ = 4 !== 4; //false
+console.log(eigthQ);
+let ninthQ = 4 != '4'; // false
+console.log(ninthQ);
+let tenthQ = 4 == '4'; //true
+console.log(tenthQ);
+let eleventhQ = 4 === '4'; //false
+console.log(eleventhQ);
+
+let python = 'python';
+let jargon = 'jargon';
+console.log(python.length);
+console.log(jargon.length);
+console.log(python.length > jargon.length);
 
 //Exercise 2
 //Question 1
