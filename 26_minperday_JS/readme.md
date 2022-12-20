@@ -52,6 +52,7 @@ ___
 #### Did You Checkin?
 
 - yes
+![image](https://user-images.githubusercontent.com/34731569/208573564-d9657b63-e329-4854-8522-6191d5069f30.png)
 
 #### Did you get your 26 minutes done today?
 
