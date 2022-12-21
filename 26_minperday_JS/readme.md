@@ -75,3 +75,34 @@ ___
 
 - Same topics, continuing with exercises.
 
+## Day 2
+
+#### Did You Checkin?
+
+- Yes
+
+![image](https://user-images.githubusercontent.com/34731569/208802442-3ad34ba9-0c54-4176-928e-1a8a4ac850f0.png)
+
+#### Did you get your 26 minutes done today?
+
+- Yes, in the morning. Adding some more now.
+
+#### If not, why?
+
+#### What JS topics did you work on?
+
+- Booleans
+- Truthy Falsy Values
+- strings
+- maths
+
+##### Anything to say about it?
+
+- Continuing to go pretty well. Concepts aren't that complicated. I liked working in the morning, just not sure my wife loved it lol. I did some at work, a little by hand in notebooks again. I don't love doing it there but why not?
+ 
+#### What are you working on next day?
+
+I'd like to get the exercises done that I'm working on and then move onto the Day 4 exercises. I think it is important for me to be thorough and make sure I am doing all the exercises and also understanding them.
+
+---
+
