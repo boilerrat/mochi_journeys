@@ -123,21 +123,56 @@ Find out the numbers of seconds elapsed from January 1, 1970 to now.
 const year = new Date();
 console.log(year.getFullYear());
 const month = new Date();
-console.log(month.getMonth());
+console.log(month.getMonth() + 1);
 const dateToday = new Date();
 console.log(dateToday.getDate());
 const dayToday = new Date();
 console.log(dayToday.getDay());
 
 
-
-
 //Exercise 2
 
 //Question 1
 
+/*
+Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+
+Enter base: 20
+Enter height: 10
+The area of the triangle is 100
+*/
+
+let base = prompt(`Enter Base`, 'Enter Number here');
+let heightY = prompt(`Enter height`, `Enter Number Here`);
+//let areaY = 0.5 * base * heightY;
+//console.log(areaY); 
+//or
+console.log(0.5 * base * heightY) //first option would be better, as the result can be used in other places.
+
 //Question 2
 
+// Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
+/*
+Enter side a: 5
+Enter side b: 4
+Enter side c: 3
+The perimeter of the triangle is 12
+*/
+
+// let sideA = prompt(`Enter Side A`, `number here`);
+// let sideB = prompt(`Enter Side B`, `number here`);
+// let sideC = prompt(`Enter Side C`, `number here`);
+// let perimeterT = (parseFloat(sideA) + parseFloat(sideB) + parseFloat(sideC);
+// console.log(perimeterT);
+
+// maybe something changed here, jvonsole show a result of 543 instead of 12
+// should I use parseInt
+
+let sideA = prompt(`Enter Side A`, `number here`);
+let sideB = prompt(`Enter Side B`, `number here`);
+let sideC = prompt(`Enter Side C`, `number here`);
+let perimeterT = parseFloat(sideA) + parseFloat(sideB) + parseFloat(sideC);
+console.log(perimeterT);
 
 // Question 3
 // Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
