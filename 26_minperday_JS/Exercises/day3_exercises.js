@@ -71,6 +71,9 @@ Figure out the result of the following comparison expression first without using
 4 != '4'
 4 == '4'
 4 === '4'
+
+//question 6
+
 Find the length of python and jargon and make a falsy comparison statement.
 */
 
@@ -103,7 +106,34 @@ console.log(python.length);
 console.log(jargon.length);
 console.log(python.length > jargon.length);
 
+
+// question 7
+/*
+Use the Date object to do the following activities
+
+What is the year today?
+What is the month today as a number?
+What is the date today?
+What is the day today as a number?
+What is the hours now?
+What is the minutes now?
+Find out the numbers of seconds elapsed from January 1, 1970 to now.
+*/
+
+let year = new Date();
+console.log(year.getFullYear);
+let month = new Date();
+console.log(month.getMonth);
+let dateToday = new Date();
+console.log(dateToday.getDate);
+let dayToday = new.Date();
+console.log(dayToday.getDay);
+
+
+
+
 //Exercise 2
+
 //Question 1
 
 //Question 2
