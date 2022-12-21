@@ -120,14 +120,14 @@ What is the minutes now?
 Find out the numbers of seconds elapsed from January 1, 1970 to now.
 */
 
-let year = new Date();
-console.log(year.getFullYear);
-let month = new Date();
-console.log(month.getMonth);
-let dateToday = new Date();
-console.log(dateToday.getDate);
-let dayToday = new.Date();
-console.log(dayToday.getDay);
+const year = new Date();
+console.log(year.getFullYear());
+const month = new Date();
+console.log(month.getMonth());
+const dateToday = new Date();
+console.log(dateToday.getDate());
+const dayToday = new Date();
+console.log(dayToday.getDay());
 
 
 
