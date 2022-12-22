@@ -183,3 +183,28 @@ let area = (length * width);
 let perimeter = (2 * area);
 console.log(`Area is ${area} and the perimiter is: ${perimeter}`);
 
+// Question 4
+
+/*
+Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+*/
+
+let radiusCircle = prompt(`Enter Radius of Circle`, `Enter Number`);
+const pi = 3.14;
+let area = pi * radiusCircle ** 2;
+let circumference = 2 * pi * radiusCircle;
+console.log(area);
+console.log(circumference);
+
+// Question 5
+
+/*
+Calculate the slope, x-intercept and y-intercept of y = 2x -2
+*/
+
+//Question 8
+// Calculate the value of y (y = x2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
+
+var x = 2
+let yVal = y(x * 2 + 6 * x
+
