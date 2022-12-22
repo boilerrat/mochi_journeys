@@ -106,7 +106,7 @@ I'd like to get the exercises done that I'm working on and then move onto the Da
 
 ---
 
-## Day X
+## Day 3
 
 #### Did You Checkin?
 
