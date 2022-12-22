@@ -106,3 +106,29 @@ I'd like to get the exercises done that I'm working on and then move onto the Da
 
 ---
 
+## Day X
+
+#### Did You Checkin?
+
+- Yes
+- ![image](https://user-images.githubusercontent.com/34731569/209050666-1c1e0632-a1cf-4f4e-8ca0-7301d7218a28.png)
+
+
+#### Did you get your 26 minutes done today?
+
+- Yes, mostly in morning. The math later in th day doesn't work well
+
+#### If not, why?
+
+#### What JS topics did you work on?
+
+- Performing maths exercoses
+
+
+##### Anything to say about it?
+
+- Mats sucks
+
+#### What are you working on next day?
+
+I havce a feeling I may rush through this little section of maths, Might try it again later. I think math will be a weak point though, so maybe I should spend some more time on it
