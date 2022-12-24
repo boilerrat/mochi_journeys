@@ -202,9 +202,242 @@ console.log(circumference);
 Calculate the slope, x-intercept and y-intercept of y = 2x -2
 */
 
+const m = 2;
+const b = -2;
+
+const slope = m;
+const yIntercept = { x:0, y: b};
+const x = -b/m;
+const xIntercept = {x: x, y: 0};
+console.log(`Slope: ${slope}`);
+console.log(`x-intercpet: ${xIntercept}`);
+console.log(`y-intercept: ${yIntercept}`);
+
+//Question 6
+/*
+Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
+*/
+
+const y2 = 10;
+const y1 = 2;
+const x2 = 6;
+const x1 = 2;
+let m1 = (y2 - y1) / (x2 - x1);
+console.log(m1);
+
+
+/* Question 7
+Compare the slope of above two questions.
+*/
+
+const m = 2;
+const b = -2;
+
+const slope = m;
+const yIntercept = { x:0, y: b};
+const x = -b/m;
+const xIntercept = {x: x, y: 0};
+console.log(`Slope: ${slope}`);
+console.log(`x-intercpet: ${xIntercept}`);
+console.log(`y-intercept: ${yIntercept}`);
+const y2 = 10;
+const y1 = 2;
+const x2 = 6;
+const x1 = 2;
+let m1 = (y2 - y1) / (x2 - x1);
+console.log(m1);
+console.log(slope === m1);  //true
+
 //Question 8
 // Calculate the value of y (y = x2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 
-var x = 2
-let yVal = y(x * 2 + 6 * x
+const x1 = 0;
+let y1 = x1 ** 2 + ((6 * x1) + 9);
+console.log(y1); // 9
+
+const x2 = -4;
+let y2 = x2 ** 2 + ((6 * x2) + 9);
+console.log(y2); //-23
+
+const x3 = 1;
+let y3 = x3 ** 2 + ((6 * x3) + 9);
+console.log(y3); 
+
+const x4 = .5;
+let y4 = x4 ** 2 + ((6 * x4) + 9);
+console.log(y4); 
+
+const x5 = -5;
+let y5 = x5 ** 2 + ((6 * x5) + 9);
+console.log(y5); 
+
+const x6 = -3;
+let y6 = x6 ** 2 + ((6 * x6) + 9);
+console.log(y6);  // 0 
+
+/* Question 9
+Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+*/
+
+var hours = prompt(`Enter Hours`, `number here`);
+var payRate = prompt(`Enter Pay Rate`, `number here`);
+let pay = hours * payRate;
+console.log(`Your pay is: ${pay}`);
+
+/* Question 10
+If the length of your name is greater than 7 say, your name is long else say your name is short.
+sample I need:
+let num = 3
+if (num > 0) {
+  console.log(`${num} is a positive number`)
+} else {
+  console.log(`${num} is a negative number`)
+}
+//  3 is a positive number
+
+num = -3
+if (num > 0) {
+  console.log(`${num} is a positive number`)
+} else {
+  console.log(`${num} is a negative number`)
+}
+//  -3 is a negative number
+
+*/
+
+let nameR = prompt(`Enter you name`, `name here`);
+if (nameR.length > 7) {
+    console.log(`Your name ${nameR} is long`)
+} else {
+    console.log(`Your name ${nameR} is short`)
+}
+
+/* Question 11
+Compare your first name length and your family name length and you should get this output.
+let firstName = 'Asabeneh'
+let lastName = 'Yetayeh'
+
+Your first name, Asabeneh is longer than your family name, Yetayeh
+
+side note
+I'm improving this to make it more complicated
+
+*/
+
+let firstyName = prompt(`Enter First Name`, `Enter Name Here`);
+let lastyName = prompt(`Enter Last Name Here`, `Enter Last Name`);
+
+if (firstyName.length > lastyName.length) {
+    console.log(`Your first name, ${firstyName} is longer than your family name ${lastyName}.`)
+} else {
+    console.log(`Your first name ${firstyName} is shorter than your family name ${lastyName}.`)
+}
+
+/* Question 12
+
+Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
+
+let myAge = 250
+let yourAge = 25
+
+I am 225 years older than you.
+
+*/
+
+let myAge = 250;
+let yourAge = 25;
+let diffAge = myAge - yourAge;
+console.log(`I am ${diffAge} years older than you.`);
+
+/* Question 13
+
+Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+*/
+
+let driverYear = prompt(`Enter Birth Year`, `Year`);
+const now1 = new Date();
+let driverAge = now1.getFullYear() - driverYear;
+if (driverAge >= 18) {
+    console.log(`You are ${driverAge}. You are old enough to drive.`) 
+} else {
+    var yearsLeft = 18 - driverAge;
+    console.log(`You must wait ${yearsLeft} years to drive.`)
+}
+
+
+/* Question 14
+
+Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+
+*/
+
+let yearsOld = prompt(`Enter Age in Years`, `age`);
+const secondsPerYear = 365 * 24 * 60 * 60;
+let secondsOld = yearsOld * secondsPerYear;
+const secondsInCentury = 100 * secondsPerYear;
+let secondsLeft = secondsInCentury - secondsOld;
+
+console.log(`You are ${secondsOld} seconds old and have about ${secondsLeft} seconds to live. Enjoy!`)
+
+
+/* Question 15
+
+
+Create a human readable time format using the Date time object
+
+    YYYY-MM-DD HH:mm
+    DD-MM-YYYY HH:mm
+    DD/MM/YYYY HH:mm
+
+*/
+
+const now = new Date();
+const yearFirst = `${now.getFullYear()}-${now.getMonth() +1}-${now.getDate()} ${now.getHours()}:${now.getMinutes()}`;
+const dayFirstDashes = `${now.getDate()}-${now.getMonth() + 1}-${now.getFullYear()} ${now.getHours()}:${now.getMinutes()}`;
+const dayFirstSlashes = `${now.getDate()}/${now.getMonth() + 1}/${now.getFullYear()} ${now.getHours()}:${now.getMinutes()}`;
+console.log(yearFirst);
+console.log(dayFirstDashes);
+console.log(dayFirstSlashes);
+
+// Exercise Level 3
+
+/*
+Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
+
+    YYYY-MM-DD HH:mm eg. 20120-01-02 07:05
+*/
+
+// get current date and time
+
+const nowZ = new Date();
+
+// get the date and time
+
+const yearZ = nowZ.getFullYear();
+const monthZ = nowZ.getMonth() +1;
+const dayZ = nowZ.getDate();
+const hourZ = nowZ.getHours();
+const minZ = nowZ.getMinutes();
+
+if (hourZ < 10) hourZ = `0${hourZ}`;
+if (minZ < 10) minZ =`0${minZ}`;
+
+// format that shid
+
+const formDate = `${yearZ}-${monthZ}-${dayZ} ${hourZ}:${minZ}`;
+
+// print it
+
+console.log(formDate);
+
+
+
+
+
+
+
+
+
+
+
 
