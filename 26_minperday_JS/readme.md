@@ -127,8 +127,68 @@ I'd like to get the exercises done that I'm working on and then move onto the Da
 
 ##### Anything to say about it?
 
-- Mats sucks
+- Maths sucks
 
 #### What are you working on next day?
 
 I havce a feeling I may rush through this little section of maths, Might try it again later. I think math will be a weak point though, so maybe I should spend some more time on it
+
+---
+
+## Day 4
+
+#### Did You Checkin?
+
+- Yes
+![image](https://user-images.githubusercontent.com/34731569/209417673-6f0e836e-6bb7-48ab-8d8d-93b2cbb93e5d.png)
+
+#### Did you get your 26 minutes done today?
+
+- Not really 
+
+#### If not, why?
+
+- wasn't feeling it. Lot going on with the holidays so just felt like goofing off. Felt that way a lot of the day today as well, but once I got into it, a l ot was clicking that wasnt before.
+
+#### What JS topics did you work on?
+
+- none
+
+##### Anything to say about it?
+
+- I was eeling laxy
+
+#### What are you working on next day?
+
+---
+
+## Day 5
+
+#### Did You Checkin?
+
+- Yes
+
+#### Did you get your 26 minutes done today?
+
+- Yes, completed day 3 of the curriculum.
+
+![image](https://user-images.githubusercontent.com/34731569/209417751-a0932df4-7134-4617-9950-96643641dae7.png)
+
+
+#### If not, why?
+
+#### What JS topics did you work on?
+
+-date() stuff, formatting 
+- various operations
+
+##### Anything to say about it?
+
+- The math didn't end up being that bad. Just reviewed some stuff for a few minutes, then I just let the code do the math.
+
+#### What are you working on next day?
+
+- operators, if/else statements
+
+---
+
