@@ -192,4 +192,86 @@ Check if a day is weekend day or a working day. Your script will take day as an 
 
  */
 
-    
+ let dayInput = prompt('Enter a day', 'day');
+ let day = dayInput.toLowerCase();
+ switch (day) {
+     case 'saturday':
+     case 'sunday':
+         console.log(`${day} is a weekend day`);
+         break;
+     case 'monday':
+     case 'tuesday':
+     case 'wednesday':
+     case 'thursday':
+     case 'friday':
+         console.log(`${day} is a working day`);
+         break;
+     default:
+         console.log('Enter a valid day');
+ }  
+ 
+ // Exercises: Level 3
+
+ // Question 1
+
+/*
+Write a program which tells the number of days in a month.
+
+Enter a month: January
+  January has 31 days.
+
+  Enter a month: JANUARY
+  January has 31 day
+
+  Enter a month: February
+  February has 28 days.
+
+  Enter a month: FEbruary
+  February has 28 days.
+
+  */
+
+const month = prompt('Enter a month').toLowerCase();
+
+let days;
+
+switch (month) {
+  case 'january':
+  case 'march':
+  case 'may':
+  case 'july':
+  case 'august':
+  case 'october':
+  case 'december':
+    days = 31;
+    break;
+  case 'april':
+  case 'june':
+  case 'september':
+  case 'november':
+    days = 30;
+    break;
+  case 'february':
+    days = 28;
+    break;
+  default:
+    console.log(`Invalid month`);
+}
+
+if (days) {
+  console.log(`${month.charAt(0).toUpperCase() + month.slice(1)} has ${days} days.`);
+}
+
+// Question 2
+
+/*
+Write a program which tells the number of days in a month, now consider leap year.
+*/
+
+const month = prompt('Enter a month').toLowerCase();
+const year = prompt('Enter a year');
+
+const date = new Date(year, month);
+const daysInMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
+
+console.log(`${month.charAt(0).toUpperCase() + month.slice(1)} ${year} has ${daysInMonth} days.`);
