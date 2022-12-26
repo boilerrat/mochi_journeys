@@ -198,6 +198,9 @@ I havce a feeling I may rush through this little section of maths, Might try it 
 
 - Yes
 
+![image](https://user-images.githubusercontent.com/34731569/209583125-f4a87ab3-c298-4f0b-a1c1-80f9ebed09fa.png)
+
+
 #### Did you get your 26 minutes done today?
 
 - Yes, completed day 4 of the curriculum.
