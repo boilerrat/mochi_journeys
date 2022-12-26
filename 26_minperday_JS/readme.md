@@ -140,7 +140,7 @@ I havce a feeling I may rush through this little section of maths, Might try it 
 #### Did You Checkin?
 
 - Yes
-![image](https://user-images.githubusercontent.com/34731569/209417673-6f0e836e-6bb7-48ab-8d8d-93b2cbb93e5d.png)
+- ![image](https://user-images.githubusercontent.com/34731569/209417673-6f0e836e-6bb7-48ab-8d8d-93b2cbb93e5d.png)
 
 #### Did you get your 26 minutes done today?
 
@@ -172,7 +172,7 @@ I havce a feeling I may rush through this little section of maths, Might try it 
 
 - Yes, completed day 3 of the curriculum.
 
-![image](https://user-images.githubusercontent.com/34731569/209417751-a0932df4-7134-4617-9950-96643641dae7.png)
+- ![image](https://user-images.githubusercontent.com/34731569/209417751-a0932df4-7134-4617-9950-96643641dae7.png)
 
 
 #### If not, why?
@@ -198,7 +198,7 @@ I havce a feeling I may rush through this little section of maths, Might try it 
 
 - Yes
 
-![image](https://user-images.githubusercontent.com/34731569/209583125-f4a87ab3-c298-4f0b-a1c1-80f9ebed09fa.png)
+- ![image](https://user-images.githubusercontent.com/34731569/209583125-f4a87ab3-c298-4f0b-a1c1-80f9ebed09fa.png)
 
 
 #### Did you get your 26 minutes done today?
