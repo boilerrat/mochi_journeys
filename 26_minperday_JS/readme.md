@@ -179,7 +179,7 @@ I havce a feeling I may rush through this little section of maths, Might try it 
 
 #### What JS topics did you work on?
 
--date() stuff, formatting 
+- date() stuff, formatting 
 - various operations
 
 ##### Anything to say about it?
@@ -192,3 +192,28 @@ I havce a feeling I may rush through this little section of maths, Might try it 
 
 ---
 
+## Day 6
+
+#### Did You Checkin?
+
+- Yes
+
+#### Did you get your 26 minutes done today?
+
+- Yes, completed day 4 of the curriculum.
+
+#### If not, why?
+
+#### What JS topics did you work on?
+
+- Conditionals
+ - If Else 
+ - switch
+ - ternary operators
+
+##### Anything to say about it?
+
+- not too hard, felt I grasped it pretty well. Important topic to cover.
+#### What are you working on next day?
+
+- Arrays
