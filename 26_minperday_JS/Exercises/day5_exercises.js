@@ -118,3 +118,19 @@ console.log(itCompanies);
 // Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
 
 console.log(`${itCompanies[0]}, ${itCompanies[1], itCompanies[2], itCompanies[3], itCompanies[4], itCompanies[5], itCompanies[6], itCompanies[7]} are big IT companies.`)
+
+// Question 13
+// Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
+
+// let us check if a banana exist in the array
+
+let index = itCompanies.indexOf('IBM')  // 0
+
+if(index === -1){
+   console.log('This company is not found')  
+} else {
+    console.log('IBM');
+}
+
+// Question 14
+// Filter out companies which have more than one 'o' without the filter method
